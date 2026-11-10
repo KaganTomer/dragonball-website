@@ -1,0 +1,82 @@
+﻿
+#myH1 {
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: "DB";
+    font-size: 400%;
+    margin: 0;
+    letter-spacing: 3px;
+    color: black;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* You might substitute this with a Dragon Ball–inspired font */
+    /* A vibrant gradient reminiscent of a fiery aura */
+    background: linear-gradient(45deg, #FF6F00, #FBC02D);
+    color: #0D47A1; /* Dark blue for contrast */
+    min-height: 100vh;
+    text-align: center;
+}
+#adminDiv {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%,0%)
+}
+
+table {
+    margin: 0 auto 20px;
+    border-collapse: collapse;
+    width: 80%;
+    color: #0D47A1; /* Dark blue text */
+    background-color: #FFECB3; /* Light, warm orange */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+    table caption {
+        caption-side: top;
+        font-size: 1.6em;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #0D47A1;
+    }
+
+    table th,
+    table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #0D47A1;
+    }
+
+    table th {
+        background-color: #0D47A1; /* Deep blue header */
+        color: #FF6F00; /* Bold orange text */
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #FFE0B2; /* Lighter orange for odd rows */
+    }
+
+    table tr:nth-child(even) {
+        background-color: #FFCC80; /* Slightly deeper orange for even rows */
+    }
+
+    table tr:hover {
+        background-color: #fff; /* Clean white highlight on hover */
+        color: #0D47A1;
+        transition: 0.3s ease-in-out;
+    }
+
+

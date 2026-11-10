@@ -1,0 +1,818 @@
+#myH1 {
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: "DB";
+    font-size: 400%;
+    margin: 0;
+    letter-spacing: 3px;
+}
+#MainBox h2{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box1 h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box2 h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box3 h2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box4 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box5 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box6 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box7 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box8 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box9 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box10 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box11 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box12 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box13 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box14 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box15 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box16 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box17 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box18 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box19 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box20 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box21 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 37px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box22 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 35px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box23 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box24 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box25 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box26 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box27 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box28 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box29 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 70px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box30 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box31 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box32 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box33 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box34 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box35 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box36 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+
+
+
+/* IMAGES */
+#spacepod1 {
+    position: absolute;
+    z-index: 11;
+    height: 450px;
+    width: 300px;
+    left: 80%;
+    top: 35%;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#kidGoku5 {
+    position: absolute;
+    height: 350px;
+    z-index: 11;
+    filter: drop-shadow(0px 0px 40px aqua);
+    top: 18%;
+    left: -25%;
+    rotate: -20deg;
+    opacity: 1;
+}
+#KidGokuWithDragonBall {
+    position: absolute;
+    height: 350px;
+    z-index: 11;
+    left: 90%;
+    top: 50%;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#box4 img{
+    position: absolute;
+    z-index: 11;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#oolong1 {
+    left: 93.5%;
+    top: 30%;
+    height: 350px;
+    rotate: 10deg;
+    
+}
+#Roshi1 {
+    left: -20%;
+    top: 50%;
+    height: 300px;
+    rotate: -10deg;
+}
+#box5 img{
+    position: absolute;
+    z-index: 9;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#shu1 {
+    z-index: 8;
+    left: 93%;
+    top: 0%;
+    height: 300px;
+    rotate: 15deg;
+}
+#pilaf1 {
+    z-index: 9;
+    left: -28%;
+    top: 30%;
+    height: 300px;
+    rotate: -10deg;
+}
+#JackieChan1 {
+    position: absolute;
+    z-index: 8;
+    left: -22%;
+    top: -32%;
+    height: 300px;
+    rotate: 15deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#kidKrillin2 {
+    position: absolute;
+    z-index: 8;
+    left: -25%;
+    top: 60%;
+    height: 300px;
+    rotate: -15deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Red_Ribbon_Army1 {
+    position: absolute;
+    z-index: 8;
+    left: 85%;
+    top: -20%;
+    height: 160px;
+    rotate: 45deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#korin1 {
+    position: absolute;
+    z-index: 8;
+    left: 0%;
+    top: 70%;
+    height: 300px;
+    rotate: -20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#tao1 {
+    position: absolute;
+    z-index: 8;
+    left: -20%;
+    top: 0%;
+    height: 220px;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#FortunetellerBaba1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 50%;
+    height: 300px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#TienShinhan1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 50%;
+    height: 320px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#kingPiccolo {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 50%;
+    height: 320px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#yajirobe1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: -40%;
+    height: 290px;
+    rotate: -10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#kidGokuWinPiccolo {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 70%;
+    height: 290px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+    border-radius: 15px;
+}
+#gokuUmbrella {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 70%;
+    height: 290px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+    border-radius: 15px;
+}
+#kidGohanBaby {
+    position: absolute;
+    z-index: 8;
+    left: -28%;
+    top: -20%;
+    height: 320px;
+    rotate: -10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Raditz1 {
+    position: absolute;
+    z-index: 8;
+    left: 95%;
+    top: 0%;
+    height: 320px;
+    rotate: 5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#KingKai1 {
+    position: absolute;
+    z-index: 8;
+    left: -28%;
+    top: 5%;
+    height: 280px;
+    rotate: -10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#VegetaStartZ {
+    position: absolute;
+    z-index: 8;
+    left: 95%;
+    top: 0%;
+    height: 320px;
+    rotate: 5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#frizaDBZ{
+    position: absolute;
+    z-index: 8;
+    left: -22%;
+    top: 40%;
+    height: 280px;
+    rotate: -10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GokuSjj3 {
+    position: absolute;
+    z-index: 8;
+    left: 93%;
+    top: -30%;
+    height: 520px;
+    rotate: 5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+.form {
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 20px rgb(56, 188, 228), 0px 0px 20px rgb(56, 188, 228), 0px 0px 20px rgb(56, 188, 228);
+}
+#yardratGoku1 {
+    position: absolute;
+    z-index: 8;
+    left: -18%;
+    top: 0%;
+    height: 420px;
+    rotate: 3deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#cell2{
+    position: absolute;
+    z-index: 8;
+    left: -24%;
+    top: -10%;
+    height: 420px;
+    rotate: -5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#cellExplode1 {
+    position: absolute;
+    z-index: 8;
+    left: 85%;
+    top: 40%;
+    height: 320px;
+    rotate: 15deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#majinVegeta {
+    position: absolute;
+    z-index: 8;
+    left: 93%;
+    top: 0%;
+    height: 420px;
+    rotate: 10deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#kidBuu1 {
+    position: absolute;
+    z-index: 8;
+    left: -30%;
+    top: 0%;
+    height: 420px;
+    rotate: 5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GokuSjj_3 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 5%;
+    height: 420px;
+    rotate: -5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#LordBeerus1 {
+    position: absolute;
+    z-index: 9;
+    left: -20%;
+    top: 0%;
+    height: 420px;
+    rotate: -2deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GokuSjjGod2 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: -20%;
+    height: 420px;
+    rotate: 0deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Shenron1 {
+    position: absolute;
+    z-index: 8;
+    left: -15%;
+    top: 42%;
+    height: 220px;
+    rotate: -6deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Friza3 {
+    position: absolute;
+    z-index: 9;
+    left: 80%;
+    top: 50%;
+    height: 320px;
+    rotate: 5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GokuAndVegeta {
+    position: absolute;
+    z-index: 9;
+    left: -20%;
+    top: 50%;
+    height: 320px;
+    rotate: -2deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#hit1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: -20%;
+    height: 420px;
+    rotate: 0deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Zeno1{
+    position: absolute;
+    z-index: 8;
+    left: -20%;
+    top: 42%;
+    height: 320px;
+    rotate: -6deg;
+    filter: drop-shadow(0px 0px 40px aqua);  
+}
+#GokuBlack1 {
+    position: absolute;
+    z-index: 8;
+    left: -30%;
+    top: 0%;
+    height: 420px;
+    rotate: 5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#VegitoSjjBlue {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 25%;
+    height: 420px;
+    rotate: -5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#TOParena {
+    position: absolute;
+    z-index: 8;
+    left: 75%;
+    top: 72%;
+    height: 270px;
+    rotate: 0deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Giren1 {
+    position: absolute;
+    z-index: 8;
+    left: 95%;
+    top: 0%;
+    height: 420px;
+    rotate: 5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}  
+#GokuUi2{
+    position: absolute;
+    z-index: 8;
+    left: -30%;
+    top: -5%;
+    height: 520px;
+    rotate: 5deg;
+    transform: rotateY(180deg);
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GokuPoseHi {
+    position: absolute;
+    filter: drop-shadow(0px 0px 40px black);
+}
+#AllTheGang {
+    position: absolute;
+    scale: 0.6;
+    top: 1172vh;
+    left: 50%;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 40px black);
+}

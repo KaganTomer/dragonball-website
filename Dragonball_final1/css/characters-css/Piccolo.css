@@ -1,0 +1,382 @@
+body{
+    height: 710vh;
+    overflow-x: hidden;
+}
+#horizontalLine {
+    height: 710vh;
+    width: 10px;
+    background-color: rgb(249,234,147);
+    position: absolute;
+    left: calc(50% - 5px);
+    border: 3px solid rgb(221, 178, 36);;
+    box-shadow: 0px 0px 20px black;
+}
+#background {
+    background-image: url(/images/MangaBackground.jpg);
+    height: 360vh;
+    width: 100%;
+    background-position: center;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    top: 710vh;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+#myH1 {
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: "DB";
+    font-size: 400%;
+    margin: 0;
+    letter-spacing: 3px;
+}
+#MainBox h2{
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#MainBox {
+    width: 850px;
+}
+#box1 h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box2 h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box3 h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box4 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box5 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box6 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box7 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box8 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box9 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box10 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box11 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box12 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box13 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box14 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box15 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box16 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box17 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box18 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box19 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box20 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+
+#box5 {
+    top: 180vh;
+    left: calc(70% - 350px);
+}
+#box6 {
+    top: 210vh;
+    left: calc(30% - 350px);
+}
+#box7 {
+    top: 240vh;
+    left: calc(70% - 350px);
+}
+#box8 {
+    top: 270vh;
+    left: calc(30% - 350px);
+}
+#box9 {
+    top: 300vh;
+    left: calc(70% - 350px);
+}
+#box10 {
+    top: 330vh;
+    left: calc(30% - 350px);
+}
+#box11 {
+    top: 360vh;
+    left: calc(70% - 350px);
+}
+#box12 {
+    top: 390vh;
+    left: calc(30% - 350px);
+}
+#box13 {
+    top: 420vh;
+    left: calc(70% - 350px);
+}
+#box14 {
+    top: 450vh;
+    left: calc(30% - 350px);
+}
+#box15 {
+    top: 480vh;
+    left: calc(70% - 350px);
+}
+#box16 {
+    top: 510vh;
+    left: calc(30% - 350px);
+}
+#box17 {
+    top: 540vh;
+    left: calc(70% - 350px);
+}
+#box18 {
+    top: 570vh;
+    left: calc(30% - 350px);
+}
+#box19 {
+    top: 600vh;
+    left: calc(70% - 350px);
+}
+#box20 {
+    top: 630vh;
+    left: calc(30% - 350px);
+}
+
+/* IMAGES */
+#Picollo2 {
+    position: absolute;
+    left: 0%;
+    filter: drop-shadow(0px 0px 40px black);
+}
+#GGGGGGG {
+    position: absolute;
+    scale: 0.15;
+    top: 485vh;
+    left: -35%;
+    filter: drop-shadow(0px 0px 60px black);
+    border-radius: 100px;
+}
+#PiccoloGohanFusion {
+    position: absolute;
+    scale: 0.4;
+    top: 652vh;
+    left: -7%;
+    filter: drop-shadow(0px 0px 60px black);
+    border-radius: 100px;
+}
+#kingPiccolo1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 50%;
+    height: 320px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#GohanPiccolo1 {
+    position: absolute;
+    z-index: 8;
+    left: -25%;
+    top: 60%;
+    height: 300px;
+    rotate: -15deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+    border-radius: 15px;
+}
+#PiccoloSaveGohan {
+    position: absolute;
+    z-index: 8;
+    left: -25%;
+    top: 50%;
+    height: 380px;
+    rotate: -15deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+    border-radius: 15px;
+}

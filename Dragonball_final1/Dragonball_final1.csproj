@@ -1,0 +1,666 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76E8C60C-481B-4392-93A1-67E2C76B182C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dragonball_final1</RootNamespace>
+    <AssemblyName>Dragonball_final1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\Admin.css" />
+    <Content Include="css\character-pages.css" />
+    <Content Include="css\characters-css\Beerus.css" />
+    <Content Include="css\characters-css\Bulma.css" />
+    <Content Include="css\characters-css\Friza.css" />
+    <Content Include="css\characters-css\Gohan.css" />
+    <Content Include="css\characters-css\Goku.css" />
+    <Content Include="css\characters-css\Krillin.css" />
+    <Content Include="css\characters-css\Log-in.css" />
+    <Content Include="css\characters-css\Piccolo.css" />
+    <Content Include="css\characters-css\Roshi.css" />
+    <Content Include="css\characters-css\Vegeta.css" />
+    <Content Include="css\characters-css\Whis.css" />
+    <Content Include="css\characters-css\Yamcha.css" />
+    <Content Include="css\characterSelection.css" />
+    <Content Include="css\Gallery.css" />
+    <Content Include="css\homepage.css" />
+    <Content Include="css\Log-in.css" />
+    <Content Include="css\navbar.css" />
+    <Content Include="css\quiz.css" />
+    <Content Include="css\quiz_normal.css" />
+    <Content Include="css\NoAccess.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\BuuThumbsDown.png" />
+    <Content Include="images\BuuThumbsDown2.jpg" />
+    <Content Include="images\WarningSign.png" />
+    <Content Include="css\Register2.css" />
+    <Content Include="css\successPage.css" />
+    <Content Include="css\underConstraction.css" />
+    <Content Include="css\WelcomePage.css" />
+    <Content Include="images\AkiraToriyama.png" />
+    <Content Include="images\AllTheGang.png" />
+    <Content Include="images\AllTheGang2.png" />
+    <Content Include="images\AndroidsBoth.png" />
+    <Content Include="images\Blast2.png" />
+    <Content Include="images\Broly1.png" />
+    <Content Include="images\Bulma1.png" />
+    <Content Include="images\Bulma2.png" />
+    <Content Include="images\bulmaScientist1.png" />
+    <Content Include="images\BulmaTeen1.png" />
+    <Content Include="images\Capsule1.png" />
+    <Content Include="images\Capsule2.png" />
+    <Content Include="images\Cell1.png" />
+    <Content Include="images\Cell2.png" />
+    <Content Include="images\cellExplode1.png" />
+    <Content Include="images\ChiChi1.png" />
+    <Content Include="images\chichi2.png" />
+    <Content Include="images\DB1996logo.png" />
+    <Content Include="images\DBSlogo.png" />
+    <Content Include="images\DBSlogotiny.png" />
+    <Content Include="images\DBwallpaper1.png" />
+    <Content Include="images\DBwallpaper2.jpeg" />
+    <Content Include="images\DBwallpaper3.jpg" />
+    <Content Include="images\DBwallpaper4.png" />
+    <Content Include="images\DBwallpaper5.jpeg" />
+    <Content Include="images\DBwallpaper6.jpeg" />
+    <Content Include="images\DBwallpaper7.jpg" />
+    <Content Include="images\DBZfighterz.png" />
+    <Content Include="images\DragonBallRadar.png" />
+    <Content Include="images\DragonBallref1.png" />
+    <Content Include="images\DragonBallref2.png" />
+    <Content Include="images\DragonBalls1.png" />
+    <Content Include="images\DragonBallZ_Logo.png" />
+    <Content Include="images\Dragon_Ball_anime_logo.png" />
+    <Content Include="images\EmperorPilaf1.png" />
+    <Content Include="images\FamilyGuyZ.png" />
+    <Content Include="images\FortunetellerBaba1.png" />
+    <Content Include="images\Friza1.png" />
+    <Content Include="images\Friza2.png" />
+    <Content Include="images\Friza3.png" />
+    <Content Include="images\Friza4.png" />
+    <Content Include="images\Friza5.png" />
+    <Content Include="images\Friza6PosePoint.png" />
+    <Content Include="images\friza7.png" />
+    <Content Include="images\frizaDBZ.png" />
+    <Content Include="images\FrizaGoku.jpg" />
+    <Content Include="images\Gallery28.jpg" />
+    <Content Include="images\gallery\Gallery1.jpg" />
+    <Content Include="images\gallery\Gallery10.jpg" />
+    <Content Include="images\gallery\Gallery11.jpg" />
+    <Content Include="images\gallery\Gallery12.jpg" />
+    <Content Include="images\gallery\Gallery13.jpg" />
+    <Content Include="images\gallery\Gallery14.jpg" />
+    <Content Include="images\gallery\Gallery15.jpg" />
+    <Content Include="images\gallery\Gallery16.jpg" />
+    <Content Include="images\gallery\Gallery17.jpg" />
+    <Content Include="images\gallery\Gallery18.jpg" />
+    <Content Include="images\gallery\Gallery19.jpg" />
+    <Content Include="images\gallery\Gallery2.jpg" />
+    <Content Include="images\gallery\Gallery20.jpg" />
+    <Content Include="images\gallery\Gallery21.jpg" />
+    <Content Include="images\gallery\Gallery22.jpg" />
+    <Content Include="images\gallery\Gallery23.jpg" />
+    <Content Include="images\gallery\Gallery24.jpg" />
+    <Content Include="images\gallery\Gallery25.jpg" />
+    <Content Include="images\gallery\Gallery26.jpg" />
+    <Content Include="images\gallery\Gallery27.jpg" />
+    <Content Include="images\gallery\Gallery28.jpg" />
+    <Content Include="images\gallery\Gallery29.jpg" />
+    <Content Include="images\gallery\Gallery3.jpg" />
+    <Content Include="images\gallery\Gallery30.jpg" />
+    <Content Include="images\gallery\Gallery31.jpg" />
+    <Content Include="images\gallery\Gallery32.jpg" />
+    <Content Include="images\gallery\Gallery33.jpg" />
+    <Content Include="images\gallery\Gallery34.jpg" />
+    <Content Include="images\gallery\Gallery35.jpg" />
+    <Content Include="images\gallery\Gallery36.jpg" />
+    <Content Include="images\gallery\Gallery4.jpg" />
+    <Content Include="images\gallery\Gallery5.jpg" />
+    <Content Include="images\gallery\Gallery6.jpg" />
+    <Content Include="images\gallery\Gallery7.jpg" />
+    <Content Include="images\gallery\Gallery8.jpg" />
+    <Content Include="images\gallery\Gallery9.jpg" />
+    <Content Include="images\GeroKillYamch.png" />
+    <Content Include="images\GGGGGGG.jpg" />
+    <Content Include="images\Giren1.png" />
+    <Content Include="images\Gohan1.png" />
+    <Content Include="images\GohanPiccolo1.png" />
+    <Content Include="images\GohanPiccolo2.png" />
+    <Content Include="images\GohanPoseLike.png" />
+    <Content Include="images\GohanUltimate1.png" />
+    <Content Include="images\GohanVidel1.png" />
+    <Content Include="images\Goku1.png" />
+    <Content Include="images\Goku2.png" />
+    <Content Include="images\Goku3.png" />
+    <Content Include="images\Goku4.png" />
+    <Content Include="images\GokuAndVegeta.png" />
+    <Content Include="images\GokuBlack1.png" />
+    <Content Include="images\GokuBlack2.png" />
+    <Content Include="images\GokuBlack3.png" />
+    <Content Include="images\GokuDrip-Photoroom.png" />
+    <Content Include="images\GokuMuiDrip.png" />
+    <Content Include="images\GokuPoseAbove.png" />
+    <Content Include="images\GokuPoseHi.png" />
+    <Content Include="images\GokuPosePoint.png" />
+    <Content Include="images\GokuPoseSpiderMan.png" />
+    <Content Include="images\GokuPoseThink.png" />
+    <Content Include="images\gokuShoveling.gif" />
+    <Content Include="images\GokuSjj1.png" />
+    <Content Include="images\GokuSjj2.png" />
+    <Content Include="images\GokuSjj3.png" />
+    <Content Include="images\GokuSjjBlue1.png" />
+    <Content Include="images\GokuSjjBlue2.png" />
+    <Content Include="images\GokuSjjGod1.png" />
+    <Content Include="images\GokuSjjGod2.png" />
+    <Content Include="images\GokuSjj_3.png" />
+    <Content Include="images\GokuUi1.png" />
+    <Content Include="images\GokuUi2.png" />
+    <Content Include="images\gokuUmbrella.png" />
+    <Content Include="images\GokuVegeta1.png" />
+    <Content Include="images\GokuVegeta2.png" />
+    <Content Include="images\GokuVegeta3.png" />
+    <Content Include="images\Gotenks1.png" />
+    <Content Include="images\GrandpaGoku1.png" />
+    <Content Include="images\greatsaiyaman1.png" />
+    <Content Include="images\hit1.png" />
+    <Content Include="images\Hit2.png" />
+    <Content Include="images\JackieChan1.png" />
+    <Content Include="images\kidBuu1.png" />
+    <Content Include="images\kidBuu2.png" />
+    <Content Include="images\kidGohan1.png" />
+    <Content Include="images\kidGohan2.png" />
+    <Content Include="images\kidGohanBaby.png" />
+    <Content Include="images\kidGoku1.png" />
+    <Content Include="images\kidGoku2.png" />
+    <Content Include="images\kidGoku3.png" />
+    <Content Include="images\kidGoku4.png" />
+    <Content Include="images\kidGoku5.png" />
+    <Content Include="images\kidGokuAndIndian.png" />
+    <Content Include="images\kidGokuNimbus.png" />
+    <Content Include="images\kidGokuRoshiGlasses.png" />
+    <Content Include="images\kidGokuShenron.png" />
+    <Content Include="images\kidGokuSjjBlue.png" />
+    <Content Include="images\kidGokuWinPiccolo.jpg" />
+    <Content Include="images\KidGokuWithDragonBall.png" />
+    <Content Include="images\kidKrillin1.png" />
+    <Content Include="images\kidKrillin2.png" />
+    <Content Include="images\KidTrunks2.png" />
+    <Content Include="images\KingKai1.png" />
+    <Content Include="images\kingPiccolo1.png" />
+    <Content Include="images\Korin1.png" />
+    <Content Include="images\Krillin1.png" />
+    <Content Include="images\Krillin2.png" />
+    <Content Include="images\LordBeerus1.png" />
+    <Content Include="images\LordBeerus2.png" />
+    <Content Include="images\LordBeerus3.png" />
+    <Content Include="images\LordClown.png" />
+    <Content Include="images\MaginVegeta1.png" />
+    <Content Include="images\Mai.png" />
+    <Content Include="images\Mai2.png" />
+    <Content Include="images\MangaBackground.jpg" />
+    <Content Include="images\MercenaryTao2.png" />
+    <Content Include="images\namekSpaceShip1.png" />
+    <Content Include="images\Nimbus1.png" />
+    <Content Include="images\nimbus1_Top.png" />
+    <Content Include="images\oolong1.png" />
+    <Content Include="images\OriginalDBgang.png" />
+    <Content Include="images\OriginalDragonBallGangFighters.png" />
+    <Content Include="images\Piccolo1.png" />
+    <Content Include="images\PiccoloGohanFusion.jpg" />
+    <Content Include="images\PiccoloSaveGohan.png" />
+    <Content Include="images\Picollo2.png" />
+    <Content Include="images\Podium1.png" />
+    <Content Include="images\quiz\Bardock.png" />
+    <Content Include="images\quiz\Champa.png" />
+    <Content Include="images\quiz\dragonball1.png" />
+    <Content Include="images\quiz\dragonball2.png" />
+    <Content Include="images\quiz\dragonball3.png" />
+    <Content Include="images\quiz\dragonball4.png" />
+    <Content Include="images\quiz\dragonball5.png" />
+    <Content Include="images\quiz\dragonball6.png" />
+    <Content Include="images\quiz\dragonball7.png" />
+    <Content Include="images\quiz\frieza_base.png" />
+    <Content Include="images\quiz\GohanBeast.png" />
+    <Content Include="images\quiz\GohanSSJ1.png" />
+    <Content Include="images\quiz\GohanSSJ2.png" />
+    <Content Include="images\quiz\GohanUltimate.png" />
+    <Content Include="images\quiz\GokuMUI.png" />
+    <Content Include="images\quiz\GokuSjj2.png" />
+    <Content Include="images\quiz\GokuSjjBlue.png" />
+    <Content Include="images\quiz\GokuSjj_3.png" />
+    <Content Include="images\quiz\gokuTrueUi.png" />
+    <Content Include="images\quiz\Goten.png" />
+    <Content Include="images\quiz\GrandpaGoku.png" />
+    <Content Include="images\quiz\GrandPriest.png" />
+    <Content Include="images\quiz\kidGohanBaby.png" />
+    <Content Include="images\quiz\KingKai.png" />
+    <Content Include="images\quiz\KingVegeta.png" />
+    <Content Include="images\quiz\LordBeerus.png" />
+    <Content Include="images\quiz\LordClown.png" />
+    <Content Include="images\quiz\Merus.png" />
+    <Content Include="images\quiz\Nappa.png" />
+    <Content Include="images\quiz\Pan.png" />
+    <Content Include="images\quiz\popo.png" />
+    <Content Include="images\quiz\Raditz1.png" />
+    <Content Include="images\quiz\Roshi.png" />
+    <Content Include="images\quiz\Trunks1.png" />
+    <Content Include="images\quiz\Vados.png" />
+    <Content Include="images\quiz\Vegeta2.png" />
+    <Content Include="images\quiz\VegetaSjjBlue.png" />
+    <Content Include="images\quiz\VegetaSSJGOD.png" />
+    <Content Include="images\quiz\VegetaUltraEgo.png" />
+    <Content Include="images\quiz\Whis.png" />
+    <Content Include="images\quiz\Yardrat.png" />
+    <Content Include="images\quiz\Zeno.png" />
+    <Content Include="images\Raditz1.png" />
+    <Content Include="images\Red_Ribbon_Army1.png" />
+    <Content Include="images\Roshi1.png" />
+    <Content Include="images\Roshi2.png" />
+    <Content Include="images\Roshi3.png" />
+    <Content Include="images\Roshi4Strong.png" />
+    <Content Include="images\Roshi5.png" />
+    <Content Include="images\Roshi6.png" />
+    <Content Include="images\RoshiGokuKrillin.png" />
+    <Content Include="images\RoshiTraining1.png" />
+    <Content Include="images\SaiyanLogo.png" />
+    <Content Include="images\Shenron1.png" />
+    <Content Include="images\Shenron2.png" />
+    <Content Include="images\Shu1.png" />
+    <Content Include="images\SjjBlueAura.png" />
+    <Content Include="images\SpacePod.png" />
+    <Content Include="images\SparkEffect1.png" />
+    <Content Include="images\SparkEffect2.png" />
+    <Content Include="images\ssjGodVision1.png" />
+    <Content Include="images\ssjGodVisionFull.png" />
+    <Content Include="images\SupremeKai.png" />
+    <Content Include="images\TeenTrunks.png" />
+    <Content Include="images\teenTrunks2.png" />
+    <Content Include="images\TeinShinHan.png" />
+    <Content Include="images\TimeMachine1.png" />
+    <Content Include="images\TOParena.png" />
+    <Content Include="images\Trunks1.png" />
+    <Content Include="images\Uni11Wolf.png" />
+    <Content Include="images\UniformLogo.png" />
+    <Content Include="images\Vegeta&amp;Bulma.png" />
+    <Content Include="images\Vegeta&amp;Bulma2.png" />
+    <Content Include="images\Vegeta1.1.png" />
+    <Content Include="images\Vegeta1.png" />
+    <Content Include="images\Vegeta2.png" />
+    <Content Include="images\VegetaSjjBlue1.png" />
+    <Content Include="images\VegetaSjjBlue2.png" />
+    <Content Include="images\VegetaStartZ.png" />
+    <Content Include="images\VegitoSjjBlue.png" />
+    <Content Include="images\Videl1.png" />
+    <Content Include="images\Whis1.png" />
+    <Content Include="images\Whis2.png" />
+    <Content Include="images\whisBeerus.png" />
+    <Content Include="images\Yajirobe1.png" />
+    <Content Include="images\yamcha1.png" />
+    <Content Include="images\Yamcha2.png" />
+    <Content Include="images\yardratGoku1.png" />
+    <Content Include="images\Zeno1.png" />
+    <Content Include="js\Characters.js" />
+    <Content Include="js\Delete.js" />
+    <Content Include="js\Gallery.js" />
+    <Content Include="js\Login.js" />
+    <Content Include="js\navbar.js" />
+    <Content Include="js\quiz.js" />
+    <Content Include="js\quiz2.js" />
+    <Content Include="js\Register.js" />
+    <Content Include="pages\characters_pages\BeerusPage.aspx" />
+    <Content Include="pages\characters_pages\BulmaPage.aspx" />
+    <Content Include="pages\characters_pages\FrizaPage.aspx" />
+    <Content Include="pages\characters_pages\GohanPage.aspx" />
+    <Content Include="pages\characters_pages\GokuPage.aspx" />
+    <Content Include="pages\characters_pages\KrillinPage.aspx" />
+    <Content Include="pages\characters_pages\PiccoloPage.aspx" />
+    <Content Include="pages\characters_pages\RoshiPage.aspx" />
+    <Content Include="pages\characters_pages\VegetaPage.aspx" />
+    <Content Include="pages\characters_pages\WhisPage.aspx" />
+    <Content Include="pages\characters_pages\YamchaPage.aspx" />
+    <Content Include="pages\mainPages\Admin.aspx" />
+    <Content Include="pages\mainPages\CharacterSelection.aspx" />
+    <Content Include="pages\mainPages\Default.aspx" />
+    <Content Include="pages\mainPages\Delete.aspx" />
+    <Content Include="pages\mainPages\Gallery.aspx" />
+    <Content Include="pages\mainPages\Login.aspx" />
+    <Content Include="pages\mainPages\logout.aspx" />
+    <Content Include="pages\mainPages\Mechanics.aspx" />
+    <Content Include="pages\mainPages\NoAccessAlready.aspx" />
+    <Content Include="pages\mainPages\NoAccessUser.aspx" />
+    <Content Include="pages\mainPages\NoAccess.aspx" />
+    <Content Include="pages\mainPages\Questionnaire.aspx" />
+    <Content Include="importent_butnoneeded\Quiz.aspx" />
+    <Content Include="pages\mainPages\Register1.aspx" />
+    <Content Include="pages\mainPages\SuccessPage.aspx" />
+    <Content Include="pages\mainPages\TheSeries.aspx" />
+    <Content Include="pages\mainPages\WelcomePage.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="pages\characters_pages\BeerusPage.aspx.cs">
+      <DependentUpon>BeerusPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\BeerusPage.aspx.designer.cs">
+      <DependentUpon>BeerusPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\BulmaPage.aspx.cs">
+      <DependentUpon>BulmaPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\BulmaPage.aspx.designer.cs">
+      <DependentUpon>BulmaPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\FrizaPage.aspx.cs">
+      <DependentUpon>FrizaPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\FrizaPage.aspx.designer.cs">
+      <DependentUpon>FrizaPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\GohanPage.aspx.cs">
+      <DependentUpon>GohanPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\GohanPage.aspx.designer.cs">
+      <DependentUpon>GohanPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\GokuPage.aspx.cs">
+      <DependentUpon>GokuPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\GokuPage.aspx.designer.cs">
+      <DependentUpon>GokuPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\KrillinPage.aspx.cs">
+      <DependentUpon>KrillinPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\KrillinPage.aspx.designer.cs">
+      <DependentUpon>KrillinPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\PiccoloPage.aspx.cs">
+      <DependentUpon>PiccoloPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\PiccoloPage.aspx.designer.cs">
+      <DependentUpon>PiccoloPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\RoshiPage.aspx.cs">
+      <DependentUpon>RoshiPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\RoshiPage.aspx.designer.cs">
+      <DependentUpon>RoshiPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\VegetaPage.aspx.cs">
+      <DependentUpon>VegetaPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\VegetaPage.aspx.designer.cs">
+      <DependentUpon>VegetaPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\WhisPage.aspx.cs">
+      <DependentUpon>WhisPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\WhisPage.aspx.designer.cs">
+      <DependentUpon>WhisPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\characters_pages\YamchaPage.aspx.cs">
+      <DependentUpon>YamchaPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\characters_pages\YamchaPage.aspx.designer.cs">
+      <DependentUpon>YamchaPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\CharacterSelection.aspx.cs">
+      <DependentUpon>CharacterSelection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\CharacterSelection.aspx.designer.cs">
+      <DependentUpon>CharacterSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Mechanics.aspx.cs">
+      <DependentUpon>Mechanics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Mechanics.aspx.designer.cs">
+      <DependentUpon>Mechanics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccessAlready.aspx.cs">
+      <DependentUpon>NoAccessAlready.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccessAlready.aspx.designer.cs">
+      <DependentUpon>NoAccessAlready.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccessUser.aspx.cs">
+      <DependentUpon>NoAccessUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccessUser.aspx.designer.cs">
+      <DependentUpon>NoAccessUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccess.aspx.cs">
+      <DependentUpon>NoAccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\NoAccess.aspx.designer.cs">
+      <DependentUpon>NoAccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Questionnaire.aspx.cs">
+      <DependentUpon>Questionnaire.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Questionnaire.aspx.designer.cs">
+      <DependentUpon>Questionnaire.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="importent_butnoneeded\Quiz.aspx.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="importent_butnoneeded\Quiz.aspx.designer.cs">
+      <DependentUpon>Quiz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\Register1.aspx.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\Register1.aspx.designer.cs">
+      <DependentUpon>Register1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\SuccessPage.aspx.cs">
+      <DependentUpon>SuccessPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\SuccessPage.aspx.designer.cs">
+      <DependentUpon>SuccessPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\TheSeries.aspx.cs">
+      <DependentUpon>TheSeries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\TheSeries.aspx.designer.cs">
+      <DependentUpon>TheSeries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\mainPages\WelcomePage.aspx.cs">
+      <DependentUpon>WelcomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\mainPages\WelcomePage.aspx.designer.cs">
+      <DependentUpon>WelcomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\Saiyan-Sans Left Oblique.ttf" />
+    <Content Include="fonts\Saiyan-Sans Right Oblique.ttf" />
+    <Content Include="fonts\Saiyan-Sans.ttf" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5080</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44315/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragonball_final1", "Dragonball_final1\Dragonball_final1.csproj", "{76E8C60C-481B-4392-93A1-67E2C76B182C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E8C60C-481B-4392-93A1-67E2C76B182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E8C60C-481B-4392-93A1-67E2C76B182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E8C60C-481B-4392-93A1-67E2C76B182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E8C60C-481B-4392-93A1-67E2C76B182C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {875B93DB-5BE7-4D60-A5B0-9AC475ED4BF0}
+	EndGlobalSection
+EndGlobal

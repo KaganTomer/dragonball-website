@@ -1,0 +1,390 @@
+body{
+    height: 650vh;
+    overflow-x: hidden;
+}
+#horizontalLine {
+    height: 650vh;
+    width: 10px;
+    background-color: rgb(249,234,147);
+    position: absolute;
+    left: calc(50% - 5px);
+    border: 3px solid rgb(221, 178, 36);;
+    box-shadow: 0px 0px 20px black;
+}
+#background {
+    background-image: url(/images/MangaBackground.jpg);
+    height: 330vh;
+    width: 100%;
+    background-position: center;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    top: 650vh;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+#myH1 {
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: "DB";
+    font-size: 400%;
+    margin: 0;
+    letter-spacing: 3px;
+}
+#MainBox h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box1 h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box2 h2 {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box3 h2 {
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box4 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+}
+#box5 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 60px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box6 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 12px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box7 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box8 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box9 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box10 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box11 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box12 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box13 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box14 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box15 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box16 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 17px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box17 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 70px;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 170%;
+    font-family: "Aharoni";
+    color: black;
+    z-index: 10;
+}
+#box5 {
+    top: 180vh;
+    left: calc(70% - 350px);
+}
+#box6 {
+    top: 210vh;
+    left: calc(30% - 350px);
+}
+#box7 {
+    top: 240vh;
+    left: calc(70% - 350px);
+}
+#box8 {
+    top: 270vh;
+    left: calc(30% - 350px);
+}
+#box9 {
+    top: 300vh;
+    left: calc(70% - 350px);
+}
+#box10 {
+    top: 330vh;
+    left: calc(30% - 350px);
+}
+#box11 {
+    top: 360vh;
+    left: calc(70% - 350px);
+}
+#box12 {
+    top: 390vh;
+    left: calc(30% - 350px);
+}
+#box13 {
+    top: 420vh;
+    left: calc(70% - 350px);
+}
+#box14 {
+    top: 450vh;
+    left: calc(30% - 350px);
+}
+#box15 {
+    top: 480vh;
+    left: calc(70% - 350px);
+}
+#box16 {
+    top: 510vh;
+    left: calc(30% - 350px);
+}
+#box17 {
+    top: 540vh;
+    left: calc(70% - 350px);
+}
+
+
+
+/* IMAGES */
+#BulmaTeen1 {
+    position: absolute;
+    height: 350px;
+    z-index: 11;
+    left: 90%;
+    top: 50%;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#KidGokuWithDragonBall {
+    position: absolute;
+    height: 350px;
+    z-index: 11;
+    filter: drop-shadow(0px 0px 40px aqua);
+    top: 26%;
+    left: -25%;
+    rotate: -20deg;
+    opacity: 1;
+}
+#DragonBallRadar {
+    position: absolute;
+    height: 300px;
+    z-index: 11;
+    left: 90%;
+    top: 50%;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Capsule1 {
+    position: absolute;
+    height: 220px;
+    z-index: 10;
+    left: 95%;
+    top: 20%;
+    rotate: -20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#namekSpaceShip1 {
+    position: absolute;
+    height: 150px;
+    z-index: 11;
+    filter: drop-shadow(0px 0px 40px aqua);
+    top: 80%;
+    left: -20%;
+    rotate: 20deg;
+    opacity: 1;
+    border-radius: 10px;
+}
+#VegetaAndbulma{
+    position: absolute;
+    height: 300px;
+    z-index: 11;
+    left: 75%;
+    top: -40%;
+    rotate: 40deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#KidTrunks2 {
+    position: absolute;
+    height: 270px;
+    z-index: 10;
+    left: 95%;
+    top: 60%;
+    rotate: 10deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#teenTrunks2 {
+    position: absolute;
+    z-index: 8;
+    left: 95%;
+    top: 0%;
+    height: 320px;
+    rotate: 5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#bulmaScientist1 {
+    position: absolute;
+    z-index: 8;
+    left: -12%;
+    top: 5%;
+    height: 320px;
+    rotate: -5deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#TimeMachine1 {
+    position: absolute;
+    z-index: 8;
+    left: 90%;
+    top: 50%;
+    height: 320px;
+    rotate: 20deg;
+    filter: drop-shadow(0px 0px 40px aqua);
+}
+#Bulma2 {
+    position: absolute;
+    left: 15%;
+    filter: drop-shadow(0px 0px 40px black);
+}
+#AllTheGang2 {
+    position: absolute;
+    scale: 0.8;
+    top: 570vh;
+    left: 0%;
+    filter: drop-shadow(0px 0px 40px black);
+}

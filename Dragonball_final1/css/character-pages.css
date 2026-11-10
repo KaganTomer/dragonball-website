@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "DB";
+    src: url(/fonts/Saiyan-Sans.ttf);
+}
+@font-face {
+    font-family: "DB2";
+    src: url(/fonts/Saiyan-Sans\ Right\ Oblique.ttf);
+}
+@font-face {
+    font-family: "DB1";
+    src: url(/fonts/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+body{
+    height: 1250vh;
+    overflow-x: hidden;
+}
+#horizontalLine {
+    height: 1250vh;
+    width: 10px;
+    background-color: rgb(249,234,147);
+    position: absolute;
+    left: calc(50% - 5px);
+    border: 3px solid rgb(221, 178, 36);;
+    box-shadow: 0px 0px 20px black;
+}
+#background {
+    background-image: url(/images/MangaBackground.jpg);
+    height: 1250vh;
+    width: 100%;
+    background-position: center;
+}
+#MainBox {
+    height: 300px;
+    width: 700px;
+    background-color: rgb(249,234,147);
+    position: absolute;
+    top: 20vh;
+    left: calc(50% - 350px);
+    border: 3px solid rgb(221, 178, 36);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+    z-index: 10;
+}
+.textBoxes {
+    border: 3px solid rgb(221, 178, 36);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+    z-index: 10;
+    min-height: 300px;
+    width: 700px;
+    background-color: rgb(249,234,147);
+    position: absolute;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+.form {
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 20px rgb(56, 188, 228), 0px 0px 20px rgb(56, 188, 228), 0px 0px 20px rgb(56, 188, 228);
+}
+#box1 {
+    top: 60vh;
+    left: calc(70% - 350px);
+}
+#box2 {
+    top: 90vh;
+    left: calc(30% - 350px);
+}
+#box3 {
+    top: 120vh;
+    left: calc(70% - 350px);
+}
+#box4 {
+    top: 150vh;
+    left: calc(30% - 350px);
+}
+#box5 {
+    top: 180vh;
+    left: calc(70% - 350px);
+}
+#box6 {
+    top: 240vh;
+    left: calc(30% - 350px);
+}
+#box7 {
+    top: 270vh;
+    left: calc(70% - 350px);
+}
+#box8 {
+    top: 300vh;
+    left: calc(30% - 350px);
+}
+#box9 {
+    top: 330vh;
+    left: calc(70% - 350px);
+}
+#box10 {
+    top: 360vh;
+    left: calc(30% - 350px);
+}
+#box11 {
+    top: 390vh;
+    left: calc(70% - 350px);
+}
+#box12 {
+    top: 420vh;
+    left: calc(30% - 350px);
+}
+#box13 {
+    top: 450vh;
+    left: calc(70% - 350px);
+}
+#box14 {
+    top: 480vh;
+    left: calc(30% - 350px);
+}
+#box15 {
+    top: 510vh;
+    left: calc(70% - 350px);
+}
+#box16 {
+    top: 540vh;
+    left: calc(30% - 350px);
+}
+#box17 {
+    top: 570vh;
+    left: calc(70% - 350px);
+}
+#box18 {
+    top: 600vh;
+    left: calc(30% - 350px);
+}
+#box19 {
+    top: 630vh;
+    left: calc(70% - 350px);
+}
+#box20 {
+    top: 660vh;
+    left: calc(30% - 350px);
+}
+#box21 {
+    top: 690vh;
+    left: calc(70% - 350px);
+}
+#box22 {
+    top: 720vh;
+    left: calc(30% - 350px);
+}
+#box23 {
+    top: 750vh;
+    left: calc(70% - 350px);
+}
+#box24 {
+    top: 780vh;
+    left: calc(30% - 350px);
+}
+#box25 {
+    top: 810vh;
+    left: calc(70% - 350px);
+}
+#box26 {
+    top: 840vh;
+    left: calc(30% - 350px);
+}
+#box27 {
+    top: 870vh;
+    left: calc(70% - 350px);
+}
+#box28 {
+    top: 900vh;
+    left: calc(30% - 350px);
+}
+#box29 {
+    top: 930vh;
+    left: calc(70% - 350px);
+}
+#box30 {
+    top: 960vh;
+    left: calc(30% - 350px);
+}
+#box31 {
+    top: 990vh;
+    left: calc(70% - 350px);
+}
+#box32 {
+    top: 1020vh;
+    left: calc(30% - 350px);
+}
+#box33 {
+    top: 1050vh;
+    left: calc(70% - 350px);
+}
+#box34 {
+    top: 1080vh;
+    left: calc(30% - 350px);
+}
+#box35 {
+    top: 1130vh;
+    left: calc(70% - 350px);
+}
+#box36 {
+    top: 1160vh;
+    left: calc(30% - 350px);
+}
+#nimbus1_Top {
+    position: fixed;
+    z-index: 15;
+    height: 100px;
+    top: 85vh;
+    left: 90%;
+    filter: drop-shadow(0px 0px 40px black);
+    animation: appearNimbus linear;
+    animation-timeline: scroll();
+    animation-range: entry 0% cover 10%;
+}
+@keyframes appearNimbus {
+    0% {
+        opacity: 0;
+        scale: 0.8;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+.footer {
+    position: absolute;
+    left: 0;
+    top: 1250vh;
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+}
+.footer a {
+    position: relative;
+    top: 40%;
+    font-size: 200%;
+}

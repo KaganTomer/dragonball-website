@@ -1,0 +1,11 @@
+# Visual Studio / build output
+.vs/
+bin/
+obj/
+packages/
+*.user
+*.suo
+
+# Private / unused files
+ReadMe.txt
+Dragonball_final1/importent_butnoneeded/

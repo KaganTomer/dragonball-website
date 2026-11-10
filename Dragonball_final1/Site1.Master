@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Dragonball_final.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> 
+        <asp:ContentPlaceHolder id="TitleContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+        <link rel="icon" href="~/images/DragonBallref1.png" />
+    <link rel="stylesheet" href="~/css/navbar.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <div>
+     
+     <div class="navbar">
+         <div id="lineNimbus"></div>
+         <a id="btnHome" href="/pages/mainPages/Default.aspx"><img src="/images/Dragon_Ball_anime_logo.png" height="150px" /></a>
+         <a id="btnLogIn" href="/pages/mainPages/Login.aspx" runat="server">Sign-In</a>
+         <div id="dropdown_user" class="dropdown_user" runat="server">
+             <a id="btnUser" runat="server">User</a>
+             <a href="/pages/mainPages/logout.aspx"><button id="btnLogout">Logout</button></a>
+             <a><button runat="server" ClientIDMode="Static" onclick="confirmDelete()" id="btnDelete">Delete</button></a>
+         </div>
+         <a id="admin_page_btn" href="/pages/mainPages/Admin.aspx" runat="server">Admin-Page</a>
+         <div class="dropdown">
+             <button id="btnMenu">Menu</button>
+             <div class="content">
+                 <img runat="server" id="ballImg" src="/images/DragonBallref1.png" />
+                 <img runat="server" id="ballImg2" src="/images/DragonBallref1.png" />
+                 <img runat="server" id="ballImg3" src="/images/DragonBallref1.png" />
+                 <img runat="server" id="ballImg4" src="/images/DragonBallref1.png" />
+                 <img runat="server" id="ballImg5" src="/images/DragonBallref1.png" />
+                 <a class="option" href="/pages/mainPages/TheSeries.aspx">The Series</a>
+                 <a class="option" href="/pages/mainPages/Mechanics.aspx">Mechanics & Technics</a>
+                 <a runat="server" id="charr" class="option" href="/pages/mainPages/CharacterSelection.aspx">Characters</a>
+                 <a runat="server" id="quiz" class="option" href="/pages/mainPages/Questionnaire.aspx">Quiz</a>
+                 <a runat="server" id="gall" class="option" href="/pages/mainPages/Gallery.aspx">Gallery</a>
+             </div>
+         </div>
+     </div>
+
+
+            <!-- Background overlay -->
+<div id="overlay"></div>
+
+<!-- Delete confirmation box -->
+<div id="deleteBox" class="delete-box hidden">
+    <h3>Confirm Deletion</h3>
+    <p>Are you sure you want to permanently delete your account?</p>
+    <div class="delete-buttons">
+        <button class="btn danger" onclick="proceedDelete()">Yes, delete</button>
+        <button class="btn cancel" onclick="cancelDelete()">Cancel</button>
+    </div>
+</div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div> 
+    <script src="../../js/navbar.js"></script>
+    <script src="../../js/Delete.js"></script>
+</body>
+</html>

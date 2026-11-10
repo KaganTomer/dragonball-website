@@ -1,0 +1,401 @@
+@font-face {
+    font-family: "DB";
+    src: url(/fonts/Saiyan-Sans.ttf);
+}
+@font-face {
+    font-family: "DB2";
+    src: url(/fonts/Saiyan-Sans\ Right\ Oblique.ttf);
+}
+@font-face {
+    font-family: "DB1";
+    src: url(/fonts/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+}
+.navbar {
+    background-color: rgb(221, 178, 36);
+    position: absolute;
+    width: 100%;
+    height: 9vh;
+    margin: 0;
+    z-index: 1000;
+    filter: drop-shadow(0px 0px 20px black);
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .dropdown {
+    position: absolute;
+    left: 270px;
+    top: 0%;
+    font-family: "DB";
+    width: auto;
+    text-align: left;
+}
+.navbar .dropdown .content {
+    display: none;
+    background-color: rgb(221, 178, 36);
+    padding: 10px;
+    /* border: 3px dotted black; */
+}
+#ballImg {
+    top: 26.5%;
+    position: absolute;
+    height: 40px;
+    animation: ballspin 7s linear infinite;
+}
+#ballImg2 {
+    top: 41.5%;
+    position: absolute;
+    height: 40px;
+    animation: ballspin 7s linear infinite;
+}
+#ballImg3 {
+    top: 56%;
+    position: absolute;
+    height: 40px;
+    animation: ballspin 7s linear infinite;
+}
+#ballImg4 {
+    top: 70%;
+    position: absolute;
+    height: 40px;
+    animation: ballspin 7s linear infinite;
+}
+#ballImg5 {
+    top: 85%;
+    position: absolute;
+    height: 40px;
+    animation: ballspin 7s linear infinite;
+}
+@keyframes ballspin {
+    0% {
+        rotate: -360deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+.navbar .dropdown .content .option{
+    font-size: 250%;
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    display: block;
+}
+#btnMenu {
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    padding: 10px;
+    /* border: 3px dotted black; */
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+}
+.dropdown:hover {
+    filter: drop-shadow(0px 0px 20px black);
+}
+/*.dropdown:hover .content{
+    display: block;
+}*/
+.dropdown .content a:hover{
+    text-shadow: 0px 0px 20px rgb(73,107,171), 0px 0px 20px rgb(73,107,171), 0px 0px 20px rgb(73,107,171);
+    /* background-image: url(/images/SjjBlueAura.png);
+    background-position: center left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+#btnHome {
+    padding: 5px;
+    position: absolute;
+    background-color: rgb(221, 178, 36);
+    left: 0;
+    top: 0;
+}
+#lineNimbus {
+    background-color: rgb(249,234,147);
+    height: 10px;
+/*    width: 1687px;*/
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+#btnLogIn {
+    position: absolute;
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    padding: 10px;
+    /* border: 3px dotted black; */
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+    text-decoration: none;
+    color: black;
+    right: 20px;
+    width: max-content;
+}
+#btnUser {
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+    text-decoration: none;
+    color: black;
+    min-width: 140px;
+    width: max-content;
+    display: none;
+    text-align: center;
+}
+#btnLogout {
+    /*    position: absolute;*/
+    left: -20%;
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+    text-decoration: none;
+    color: black;
+    width: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 90%;
+    border-top: 2px solid black;
+    display: none;
+}
+#btnDelete {
+/*    position: absolute;*/
+    left: -20%;
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+    text-decoration: none;
+    color: black;
+    width: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: 2px solid black;
+    display: none;
+}
+.dropdown_user {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    min-width: 140px;
+    width: fit-content;
+    height: fit-content;
+    text-align:center;
+}
+.dropdown_user:hover #btnLogout {
+    display: block;
+}
+.dropdown_user:hover #btnDelete {
+    display: block;
+}
+#admin_page_btn {
+    position: absolute;
+    background-color: rgb(221, 178, 36);
+    font-size: 300%;
+    padding: 10px;
+    /* border: 3px dotted black; */
+    border: none;
+    cursor: pointer;
+    font-family: "DB";
+    text-decoration: none;
+    color: black;
+    left: 400px;
+    width: max-content;
+    display: none;
+}
+
+
+/*.UserDropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(221, 178, 36);
+    left: 94%;
+}
+.content_2 {
+    display: none;
+    position: absolute;
+}
+.UserDropdown:hover .content_2{
+    display: block;
+}
+.UserDropdown .content_2 button:hover {
+    text-shadow: 0px 0px 20px rgb(73,107,171), 0px 0px 20px rgb(73,107,171), 0px 0px 20px rgb(73,107,171);
+}*/
+
+
+.delete-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    background: #111; /* dark background like space */
+    color: #fff;
+    border: 2px solid #ffcc00; /* Goku's gi color */
+    border-radius: 8px;
+    padding: 25px;
+    width: 340px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.3); /* ki aura effect */
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    background-image: radial-gradient(circle at center, #222 0%, #000 100%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    .delete-box h3 {
+        margin-top: 0;
+        font-size: 1.6em;
+        color: #ff3333; /* scouter red */
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .delete-box p {
+        margin: 15px 0 25px;
+        font-size: 1em;
+        color: #ffcc00; /* dragon ball yellow */
+        text-shadow: 0 0 3px rgba(255, 204, 0, 0.5);
+    }
+
+    /* Visible state */
+    .delete-box.visible {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        pointer-events: auto;
+        animation: pulse 1.5s infinite alternate; /* ki pulse effect */
+    }
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 20px rgba(255, 204, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.3);
+    }
+
+    to {
+        box-shadow: 0 0 30px rgba(255, 204, 0, 0.8), 0 0 60px rgba(255, 0, 0, 0.5);
+    }
+}
+
+/* Button styles */
+.delete-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn.danger {
+        background-color: #ff3333; /* scouter red */
+        color: #fff;
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+
+        .btn.danger:hover {
+            background-color: #ff0000;
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+        }
+
+        .btn.danger:active {
+            transform: translateY(1px);
+        }
+
+    .btn.cancel {
+        background-color: #0066ff; /* Vegeta blue */
+        color: #fff;
+        text-shadow: 0 0 5px rgba(0, 102, 255, 0.7);
+        box-shadow: 0 0 10px rgba(0, 102, 255, 0.5);
+    }
+
+        .btn.cancel:hover {
+            background-color: #0055dd;
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(0, 102, 255, 0.8);
+        }
+
+        .btn.cancel:active {
+            transform: translateY(1px);
+        }
+
+/* Overlay background - space theme */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    background-image: radial-gradient(circle at 20% 30%, rgba(0, 100, 255, 0.1) 0%, transparent 20%), radial-gradient(circle at 80% 70%, rgba(255, 0, 0, 0.1) 0%, transparent 20%);
+}
+
+    #overlay.visible {
+        opacity: 1;
+        pointer-events: auto;
+        animation: stars 20s linear infinite;
+    }
+
+@keyframes stars {
+    from {
+        background-position: 0 0, 0 0;
+    }
+
+    to {
+        background-position: -1000px 500px, 500px -1000px;
+    }
+}
+
+/* Dragon Ball power-up effects */
+.btn::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.btn:hover::after {
+    left: 100%;
+    top: 100%;
+}
